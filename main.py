@@ -2,9 +2,9 @@ import random
 
 i = 1
 while True:
-    num = random.randint(0, 10)
+    num = random.randint(1, 9)
     uGuess = input("Game number: " + str(i) + "\nIf You want to quit type 'quit'. \nIf you want to play type the "
-                                              "number from 0 to 10: ")
+                                              "number from 1 to 9: ")
     if uGuess == 'quit':
         print("You played " + str(i - 1) + " games. \nBye, bye!")
         break
