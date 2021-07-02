@@ -6,12 +6,12 @@ while True:
     uGuess = input("Game number: " + str(i) + "\nIf You want to quit type 'quit'. \nIf you want to play type the "
                                               "number from 1 to 9: ")
     if uGuess == 'quit':
-        print("You played " + str(i - 1) + " games. \nBye, bye!")
+        print("\nYou played " + str(i - 1) + " games. \nBye, bye!")
         break
     elif int(uGuess) == num:
-        print("Nice one! You guessed it!")
+        print("\nNice one! You guessed it!\n")
     elif int(uGuess) > num:
-        print("Too high! :(")
+        print("\nToo high! :(\n")
     elif int(uGuess) < num:
-        print("Too low! :(")
+        print("\nToo low! :(\n")
     i = i + 1
